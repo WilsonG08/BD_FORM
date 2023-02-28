@@ -39,9 +39,9 @@ public ventana() {
                 int res = ps.executeUpdate();
 
                 if (res > 0) {
-                    JOptionPane.showMessageDialog(null, "Persona Guardada");
+                    JOptionPane.showMessageDialog(null, "Guardada!");
                 } else {
-                    JOptionPane.showMessageDialog(null, "Error al Guardar persona");
+                    JOptionPane.showMessageDialog(null, "ERROR");
                 }
                 //limpiartxt();
                 //txtId.setText("");
